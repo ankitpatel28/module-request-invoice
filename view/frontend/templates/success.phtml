@@ -1,0 +1,12 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+?>
+<p>
+    <strong><?= $block->escapeHtml(__('If you would like to request for an invoice for this order then please ')) ?>
+        <a href="<?php echo $block->escapeUrl($block->getBaseUrl()).'requestpost/index/requestinvoice'; ?>"><?= $block->escapeHtml(__('Click here')) ?></a>.
+    </strong>
+</p>

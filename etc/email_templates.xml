@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="request_invoice_template" label="Invoice Request to Admin" file="invoice_request.html" type="html" module="AnkitDev_RequestInvoice" area="frontend"/>
+    <template id="customer_request_invoice_template" label="Invoice Request to Customer" file="customer_invoice_request.html" type="html" module="AnkitDev_RequestInvoice" area="frontend"/>
+    <template id="sales_email_order_template" label="New Order by Request Invoice" file="requestinvoice_order_new.html" type="html" module="AnkitDev_RequestInvoice" area="frontend"/>
+    <template id="sales_email_order_guest_template" label="New Order for Guest by Request Invoice" file="order_new_guest.html" type="html" module="AnkitDev_RequestInvoice" area="frontend"/>
+</config>

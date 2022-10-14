@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="ankitdev_request_invoice">
+        <column xsi:type="int" name="request_id" padding="10" identity="true" nullable="false" comment="Request Id" />
+        <column xsi:type="int" name="order_id" padding="10" nullable="false" comment="Order Id" />
+        <column xsi:type="text" name="seller_id" nullable="false" comment="Seller Id" />
+        <column xsi:type="varchar" name="seller_email" length="255" nullable="false" comment="Seller Email" />
+        <column xsi:type="varchar" name="name_customer" length="255" nullable="false" comment="Name of the customer" />
+        <column xsi:type="varchar" name="email_customer" length="255" nullable="false" comment="Email of the customer" />
+        <column xsi:type="varchar" name="telephone_customer" length="255" nullable="false" comment="Mobile Number of the customer" />
+        <column xsi:type="varchar" name="company_name" length="255" nullable="false" comment="Company Name" />
+        <column xsi:type="varchar" name="company_tax_code" length="255" nullable="false" comment="Company Tax Code" />
+        <column xsi:type="varchar" name="company_address" length="255" nullable="false" comment="Company Address" />
+        <column xsi:type="varchar" name="email" length="255" nullable="false" comment="Email" />
+        <column xsi:type="text" name="status" nullable="false" comment="Status" />
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="request_id" />
+        </constraint>
+    </table>
+</schema>

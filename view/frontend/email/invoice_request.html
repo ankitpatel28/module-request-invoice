@@ -1,0 +1,52 @@
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<!--@subject {{trans "Request Invoice Form"}} @-->
+<!--@vars {
+"var data.comment":"Comment",
+"var data.email":"Sender Email",
+"var data.name":"Sender Name",
+"var data.telephone":"Sender Telephone"
+} @-->
+
+{{template config_path="design/email/header_template"}}
+
+<table class="message-details">
+    <tr>
+        <td><strong>{{trans "Order ID: "}}</strong></td>
+        <td>{{var order_id}}</td>
+    </tr>
+    <tr>
+        <td><strong>{{trans "Name of the customer: "}}</strong></td>
+        <td>{{var name_customer}}</td>
+    </tr>
+    <tr>
+        <td><strong>{{trans "Email of the customer: "}}</strong></td>
+        <td>{{var email_customer}}</td>
+    </tr>
+    <tr>
+        <td><strong>{{trans "Mobile Number of the customer: "}}</strong></td>
+        <td>{{var telephone_customer}}</td>
+    </tr>
+    <tr>
+        <td><strong>{{trans "Company Name: "}}</strong></td>
+        <td>{{var company_name}}</td>
+    </tr>
+    <tr>
+        <td><strong>{{trans "Company Tax Code: "}}</strong></td>
+        <td>{{var company_tax_code}}</td>
+    </tr>
+    <tr>
+        <td><strong>{{trans "Company Address: "}}</strong></td>
+        <td>{{var company_address}}</td>
+    </tr>
+    <tr>
+        <td><strong>{{trans "Email: "}}</strong></td>
+        <td>{{var email}}</td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer_template"}}

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="AnkitDev_RequestInvoice::requestinvoice" title="Request Invoice" module="AnkitDev_RequestInvoice" sortOrder="51" resource="AnkitDev_RequestInvoice::requestinvoice"/>
+        <add id="AnkitDev_RequestInvoice::listing" title="Request Lists" module="AnkitDev_RequestInvoice" sortOrder="10" action="requestinvoice/index/listing" resource="AnkitDev_RequestInvoice::listing" parent="AnkitDev_RequestInvoice::requestinvoice"/>
+    </menu>
+</config>

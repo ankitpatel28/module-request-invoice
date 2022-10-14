@@ -1,0 +1,21 @@
+{
+  "name": "ankitdev/module-request-invoice",
+  "description": "Customer can request for invoice.",
+  "license": [
+    "MIT"
+  ],
+  "type": "magento2-module",
+  "keywords": ["magento2", "request invoice"],
+  "version": "1.0.0",
+  "require": {
+    "php": "~7.2.0|7.3.*|7.4.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AnkitDev\\RequestInvoice\\": ""
+    }
+  }
+}

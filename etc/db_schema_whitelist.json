@@ -1,0 +1,21 @@
+{
+    "ankitdev_request_invoice": {
+        "column": {
+            "request_id": true,
+            "order_id": true,
+            "seller_id": true,
+            "seller_email": true,
+            "name_customer": true,
+            "email_customer": true,
+            "telephone_customer": true,
+            "company_name": true,
+            "company_tax_code": true,
+            "company_address": true,
+            "email": true,
+            "status": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

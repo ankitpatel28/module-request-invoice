@@ -1,0 +1,9 @@
+td.approved {
+    background-color: #008000;
+    border: 1px solid #000000;
+}
+
+td.disapproved {
+    background-color: #FFA500;
+    border: 1px solid #000000;
+}
