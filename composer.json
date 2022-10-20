@@ -1,12 +1,13 @@
 {
   "name": "ankitdev/module-request-invoice",
-  "description": "Customer can request for invoice.",
+  "description": "Customer can request for invoice after place an order.",
   "license": [
     "MIT"
   ],
   "type": "magento2-module",
   "keywords": ["magento2", "request invoice"],
   "version": "1.0.0",
+  "minimum-stability": "stable",
   "require": {
     "php": "~7.2.0|7.3.*|7.4.*"
   },
