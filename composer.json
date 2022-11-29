@@ -3,7 +3,7 @@
   "description": "Customer can request for invoice after place an order.",
   "type": "magento2-module",
   "keywords": ["magento2", "request invoice"],
-  "version": "1.0.2",
+  "version": "1.0.0",
   "autoload": {
     "files": [
       "registration.php"
